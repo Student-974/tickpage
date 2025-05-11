@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+    <head>
+
+        <link rel="stylesheet" href="/Tickets.css">
+        <link rel="icon" type="image/jpg" href="/icon/titleic.jpg">
+        <title>شراء التذاكر</title>
+
+    </head>
+    <body>
+        <script src="/Tickets.js"></script>
+
+                <!-- هنا الهيدر -->
+        <header>
+            <h1 >مرحبا في متحف مصر</h1>
+            <p >حيث التراث و الحضاره تتحدث</p>
+        </header>
+
+        <div id="hedth">
+            <nav>
+                <a href="https://fatima-labana.github.io/late/contact-us.html" title=" للتواصل معنا اضغط هنا" >التواصل معنا</a> <!--000000000000000000000000غير القيم من هنا-->
+                <a href="/index.html" title="  لشراء التذاكر اضغط هنا">التذاكر</a>
+                <a href="https://seif-9.github.io/-project-my/" title=" للصفحة الرئيسية اضغط هنا">الصفحة الرئيسية</a><!--000000000000000000000000غير القيم من هنا-->
+                <a href="https://fatima-labana.github.io/Rayan/" title=" لإختيار الحضارة الإسلامية اضغط هنا">الحضارة الإسلامية </a>
+                <a href="https://98seif.github.io/DDDD/" title=" لإختيار الحضارة الفرعونية اضغط هنا"> الحضارة الفرعونية</a><!--000000000000000000000000غير القيم من هنا-->
+                <a href="https://moadelus.github.io/Mohamed-Adel-romanpage/" title=" لإختيار الحضارة الرومانية اضغط هنا">الحضارة الرومانية </a><!--000000000000000000000000غير القيم من هنا-->
+                <a href="https://fatima-labana.github.io/late/" title=" لإختيار الحضارة اليونانية اضغط هنا">الحضارة اليونانية</a><!--000000000000000000000000غير القيم من هنا-->
+            
+                <div>
+                    <search>
+                        <form>
+                            <input type="text" id="ser" name="ser" placeholder="أكتب ما تريد البحث عنه هنا">
+                        </form>
+                    </search>
+                </div>
+                
+                <a href="https://moadeluss.github.io/login/" title=" للتسجيل اضغط هنا"><img rel="icon" type="image/jpg" src="/image/logim.jpeg" width="30px" height="30px" alt="log icon" href>التسجيل</a><!--000000000000000000000000غير القيم من هنا-->
+            </nav>
+        </div>
+        
+        <!-- الفورم -->
+        <div id="formtik">
+            <form id="tickets" method="post" autocomplete="off">
+                <div>
+                    <fieldset>
+                        <legend><p>حجز التذاكر<img rel="icon" type="image/jpg" src="/icon/tikic.jpeg" width="30px" height="30px" alt="tickets icon"></p></legend>
+                        
+                        <table>
+                            <tr>
+                                <td><label for="tdate">الموعد المحدد</label></td>
+                                <td></td>
+                                <td><input type="date" id="tdate" min="2025-5-9" max="2050-1-1" form="tickets" required autofocus></td>
+                            </tr>
+                        </table>
+                        <br>
+                        
+                        <table id="datem">
+                            <caption><p><img rel="icon" type="image/jpg" src="/icon/pepic.jpeg" width="30px" height="30px" alt="people icon"></p>عدد الافراد</caption>
+                            <tr>
+                                <th colspan="3">المصريين و العرب</th>
+                            </tr>
+                            <tr>
+                                <td><label for="noac" title="الطفال اقل من عمر 6 سنوات">الاطفال</label></td>
+                                <td>0 ج</td>
+                                <td><input type="number" id="noac" name="noac" min="0" form="tickets" value="0"></td>
+                            </tr>
+                            
+                            <tr>
+                                <td><label for="noas" title="يجب اظهار اثبات بذلك عند البوابة">الطلاب</label></td>
+                                <td>10 ج</td>
+                                <td><input type="number" id="noas" name="noas" min="0" form="tickets" value="0"></td>
+                            </tr>
+                            
+                            <tr>
+                                <td><label for="noaa">الكبار</label></td>
+                                <td>30 ج</td>
+                                <td><input type="number" id="noaa" name="noaa" min="0" form="tickets" value="0"></td>
+                            </tr>
+                            
+                            <tr>
+                                <th colspan="3"> الجنسيات الأخري</th>
+                            </tr>
+                            
+                            <tr>
+                                <td><label for="nonac" title="الطفال اقل من عمر 6 سنوات">الاطفال</label></td>
+                                <td>0ج</td>
+                                <td><input type="number" id="nonac" name="nonac" min="0" form="tickets" value="0"></td>
+                            </tr>
+                            
+                            <tr>
+                                <td><label for="nonas" title="يجب اظهار اثبات بذلك عند البوابة">الطلاب</label></td>
+                                <td>275 ج</td>
+                                <td><input type="number" id="nonas" name="nonas" min="0" form="tickets" value="0"></td>
+                            </tr>
+                            
+                            <tr>
+                                <td><label for="nonaa">الكبار</label></td>
+                                <td>550 ج</td>
+                                <td><input type="number" id="nonaa" name="nonaa" min="0" form="tickets" value="0"></td>
+                            </tr>
+                            
+                            <tr>
+                                <th colspan="3"><p>تذاكر<img rel="icon" type="image/jpg" src="/icon/picic.jpeg" width="30px" height="30px" alt="image icon"></p></th>
+                            </tr>
+                            
+                            <tr>
+                                <td><label for="tikbot" title="التصوير الفوتوغرافي بالهاتف الجوال">التصوير</label></td>
+                                <td>0ج</td>
+                                <td><input type="number" id="tikbot" name="tikbot" min="0" form="tickets" value="0"></td>
+                            </tr>
+                            
+                            <tr>
+                                <td><label for="tikvid">الفيديو</label></td>
+                                <td>300 ج</td>
+                                <td><input type="number" id="tikvid" name="tikvid" min="0" form="tickets" value="0"></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <br>
+                    <br>
+                </div>
+                
+                <span>
+                    <fieldset>
+                        <legend>البيانات الشخصية</legend>
+                        
+                        <label for="fname">الاسم الاول</label><br>
+                        <input type="text" id="fname" name="fname" form="tickets" placeholder="مثال: محمد" required><br><br>
+                        
+                        <label for="sname">اسم العائلة</label><br>
+                        <input type="text" id="sname" name="sname" form="tickets" placeholder="مثال: خالد" required><br><br>
+                        
+                        <label for="telnum">رقم الهاتف</label><br>
+                        <input type="tel" id="telnum" name="telnum" pattern="[0-9]{11}" form="tickets" placeholder="مثال: 01234567899" required><br><br>
+                        
+                        <label for="emad">عنوان البريد الالكتروني</label><br>
+                        <input type="email" id="emad" name="emad" form="tickets" placeholder="مثال: any@gmail.com" required><br><br>
+                    
+                    </fieldset>
+                </span>
+                
+                <br>
+                <br>
+                
+                <input type="submit" value="تأكيد" form="tickets">
+                <input type="reset" value="إعادة تعيين" form="tickets"><br>
+            </form>
+        </div>
+
+        <!-- الايصال -->
+        <div id="restik" style="display: none;">
+            <table id="datem">
+                <caption>تأكيد حجز التذكرة</caption>
+                
+                <tr>
+                    <td colspan="4">السيد <span id="refname"></span> <span id="resname"></span></td>
+                </tr>
+                
+                <tr>
+                    <td colspan="4">تم حجز تذكرى ليوم <span id="retdate"></span></td>
+                </tr>
+                
+                <tr>
+                    <td colspan="4">  بمبلغ قدره <span id="retotmon"></span></td>
+                </tr>
+                
+                <tr>
+                    <th colspan="4">المصريين و العرب</th>
+                </tr>
+                
+                <tr>
+                    <td><label for="renoac" title="الطفال اقل من عمر 6 سنوات">الاطفال</label></td>
+                    <td><span id="renoac"></span></td>
+                    <td>× 0 ج</td>
+                    <td><span id="retotnoac"></span> ج</td>
+                </tr>
+                
+                <tr>
+                    <td><label for="renoas" title="يجب اظهار اثبات بذلك عند البوابة">الطلاب</label></td>
+                    <td><span id="renoas"></span></td>
+                    <td>× 10 ج</td>
+                    <td><span id="retotnoas"></span> ج</td>
+                </tr>
+                
+                <tr>
+                    <td><label for="renoaa">الكبار</label></td>
+                    <td><span id="renoaa"></span></td>
+                    <td>× 30 ج</td>
+                    <td><span id="retotnoaa"></span> ج</td>
+                </tr>
+                
+                <tr>
+                    <th colspan="4"> الجنسيات الأخري</th>
+                </tr>
+                
+                <tr>
+                    <td><label for="renonac" title="الطفال اقل من عمر 6 سنوات">الاطفال</label></td>
+                    <td><span id="renonac"></span></td>
+                    <td>× 0 ج</td>
+                    <td><span id="retotnonac"></span> ج</td>
+                </tr>
+                
+                <tr>
+                    <td><label for="renonas" title="يجب اظهار اثبات بذلك عند البوابة">الطلاب</label></td>
+                    <td><span id="renonas"></span></td>
+                    <td>× 275 ج</td>
+                    <td><span id="retotnonas"></span> ج</td>
+                </tr>
+                
+                <tr>
+                    <td><label for="renonaa">الكبار</label></td>
+                    <td><span id="renonaa"></span></td>
+                    <td>× 550 ج</td>
+                    <td><span id="retotnonaa"></span> ج</td>
+                </tr>
+                
+                <tr>
+                    <th colspan="4">تذاكر</th>
+                </tr>
+                
+                <tr>
+                    <td><label for="retikbot" title="التصوير الفوتوغرافي بالهاتف الجوال">التصوير</label></td>
+                    <td><span id="retikbot"></span></td>
+                    <td>× 0 ج</td>
+                    <td><span id="retottikbot"></span> ج</td>
+                </tr>
+                
+                <tr>
+                    <td><label for="retikvid">الفيديو</label></td>
+                    <td><span id="retikvid"></span></td>
+                    <td>× 300 ج</td>
+                    <td><span id="retottikvid"></span> ج</td>
+                </tr>
+                
+                <tr>
+                    <th colspan="4">معلومات الإتصال</th>
+                </tr>
+                <tr>
+                    <td>رقم الهاتف:</td>
+                    <td colspan="3"><span id="retelnum"></span></td>
+                </tr>
+                <tr>
+                    <td>البريد الإلكتروني:</td>
+                    <td colspan="3"><span id="reemad"></span></td>
+                </tr>
+                
+            </table>
+        </div>
+
+        <!-- هنا الفوتر -->
+        <div class="footer" id="idfooter">
+            <hr>
+            <br>
+            
+            <table>
+                <tr>
+                    <td><b>تابعونا</b></td>
+                    <td><b>الحضارات</b></td>
+                    <td><b>التواصل معنا</b></td>
+                </tr>
+
+                <tr>
+                    <td><a href="https://www.facebook.com/EgyptianMuseumCairo/" title=" للتواصل معنا على الفيسبوك اضغط هنا" ><img rel="icon" type="image/jpg" src="/image/facim.jpeg" width="30px" height="30px" alt="facebook icon" href>فيسبوك</a></td>
+                    <td><a href="https://fatima-labana.github.io/Rayan/" title=" لإختيار الحضارةالإسلامية اضغط هنا" >الحضارةالإسلامية</a></td><!--000000000000000000000000غير القيم من هنا-->
+                    <td>العنوان : ميدان التحرير، وسط البلد ، القاهرة - مصر </td>
+                </tr>
+
+                <tr>
+                    <td><a href="https://www.instagram.com/egyptianmuseumincairo/?igsh=MTRiaXEwZ2duY2x1Nw%3D%3D#" title=" للتواصل معنا على الإنستغرام اضغط هنا" ><img rel="icon" type="image/jpg" src="/image/insim.jpeg" width="30px" height="30px" alt="instagram icon" href>إنستغرام</a></td>
+                    <td><a href="https://98seif.github.io/DDDD/" title=" لإختيار الحضارة الفرعونية اضغط هنا" >الحضارةالفرعونية</a></td><!--000000000000000000000000غير القيم من هنا-->
+                    <td>هواتفنا : +20 2 25796948</td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><a href="https://moadelus.github.io/Mohamed-Adel-romanpage/" title=" لإختيار الحضارة الرومانية اضغط هنا" >الحضارةالرومانية</a></td><!--000000000000000000000000غير القيم من هنا-->
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><a href="https://fatima-labana.github.io/late/" title=" لإختيار الحضارةاليونانية اضغط هنا" >الحضارةاليونانية</a></td><!--000000000000000000000000غير القيم من هنا-->
+                    <td></td>
+                </tr>
+            </table>
+
+            <p><b>كل الحقوق محفوظة 2025-2026</b></p>
+        </div>
+    </body>
+</html>
